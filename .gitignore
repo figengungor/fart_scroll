@@ -5,9 +5,14 @@
 .pub/
 .flutter-plugins
 
-*.iml
-
 build/
 ios/.generated/
 ios/Flutter/Generated.xcconfig
 ios/Runner/GeneratedPluginRegistrant.*
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+.flutter-plugins-dependencies
