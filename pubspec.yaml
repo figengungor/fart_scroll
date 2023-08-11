@@ -1,16 +1,17 @@
 name: fart_scroll
 description: Make your app fart while scrolling.
-version: 1.0.0
+version: 2.0.0
 author: Figen Güngör <figengungor1@gmail.com>
 homepage: https://github.com/figengungor/fart_scroll
 
 environment:
-  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  audioplayers: ^0.7.8
+  audioplayers: ^5.1.0
+  path_provider: ^2.1.0
 
 dev_dependencies:
   flutter_test:
